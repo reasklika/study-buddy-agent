@@ -72,12 +72,12 @@ export default function RootLayout({
                   <Logo />
                 </a>
                 <nav className="flex gap-1 flex-col md:flex-row">
-                  <ActiveLink href="/">🏴‍☠️ Chat</ActiveLink>
+                  {/* <ActiveLink href="/">🏴‍☠️ Chat</ActiveLink>
                   <ActiveLink href="/structured_output">
                     🧱 Structured Output
-                  </ActiveLink>
+                  </ActiveLink> */}
                   <ActiveLink href="/study_buddy">🤓 Study Buddy</ActiveLink>
-                  <ActiveLink href="/agents">🦜 Agents</ActiveLink>
+                  {/* <ActiveLink href="/agents">🦜 Agents</ActiveLink>
                   <ActiveLink href="/retrieval">🐶 Retrieval</ActiveLink>
                   <ActiveLink href="/retrieval_agents">
                     🤖 Retrieval Agents
@@ -85,7 +85,7 @@ export default function RootLayout({
                   <ActiveLink href="/ai_sdk">
                     🌊 React Server Components
                   </ActiveLink>
-                  <ActiveLink href="/langgraph">🕸️ LangGraph</ActiveLink>
+                  <ActiveLink href="/langgraph">🕸️ LangGraph</ActiveLink> */}
                 </nav>
               </div>
 
