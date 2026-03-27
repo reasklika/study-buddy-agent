@@ -50,7 +50,7 @@ export default function StudyBuddyPage() {
       endpoint="api/chat/study_buddy"
       emptyStateComponent={InfoCard}
       placeholder="I will be your Study Buddy. Ask me anything!"
-      emoji="🦜"
+      emoji="🤓"
       showIntermediateStepsToggle={true}
     />
   );

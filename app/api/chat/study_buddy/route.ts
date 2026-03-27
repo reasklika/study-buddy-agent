@@ -119,13 +119,13 @@ export async function POST(req: Request) {
       # 📚 Study Guide: [Topic]
 
       ## 🔍 Top Resources
-      1. **[Resource Title](URL)**
+      **[Resource Title](URL)**
         > [2-3 sentence summary.]
 
       ---
 
       ## ✍️ Quick Quiz
-      1. **[Question]**
+      **[Question]**
         - A) [Option]
         - B) [Option]...
 
