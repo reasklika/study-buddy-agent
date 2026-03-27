@@ -112,7 +112,28 @@ export async function POST(req: Request) {
       3. After the summaries, generate a 'Quiz Time!' section with 5 multiple-choice questions.
       4. Include an 'Answer Key' at the very bottom hidden in a way the user has to scroll or look for it.
       
-      Maintain a supportive, educational, and slightly witty tone.`,
+      Maintain a supportive, educational, and slightly witty tone.
+
+      Always format your response using Markdown for a clean look:
+
+      # 📚 Study Guide: [Topic]
+
+      ## 🔍 Top Resources
+      1. **[Resource Title](URL)**
+        > [2-3 sentence summary.]
+
+      ---
+
+      ## ✍️ Quick Quiz
+      1. **[Question]**
+        - A) [Option]
+        - B) [Option]...
+
+      ---
+
+      ## 🔑 Answer Key
+
+      1. **[Answer]**: [Explanation]`,
     });
 
     if (!returnIntermediateSteps) {

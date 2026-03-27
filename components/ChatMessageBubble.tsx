@@ -1,5 +1,7 @@
 import { cn } from "@/utils/cn";
 import type { UIMessage, TextUIPart } from "ai";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 const getMessageText = (message: UIMessage) =>
   message.parts
@@ -29,7 +31,16 @@ export function ChatMessageBubble(props: {
       )}
 
       <div className="whitespace-pre-wrap flex flex-col">
-        <span>{getMessageText(props.message)}</span>
+        <div
+          className={cn(
+            "prose dark:prose-invert max-w-none text-sm",
+            props.message.role === "user" ? "" : "text-foreground",
+          )}
+        >
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            {getMessageText(props.message)}
+          </ReactMarkdown>
+        </div>
 
         {props.sources && props.sources.length ? (
           <>

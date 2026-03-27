@@ -80,3 +80,26 @@
     scrollbar-width: none;
   }
 }
+
+/* Makes the 'Summary' bar blue and padded */
+.prose blockquote {
+  border-left-color: #3b82f6; /* Blue bar */
+  background-color: rgba(59, 130, 246, 0.05);
+  font-style: normal;
+  padding: 10px 20px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Styles the clickable Answer Key */
+details {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f8fafc;
+  cursor: pointer;
+}
+
+summary {
+  font-weight: 600;
+  color: #2563eb;
+}
