@@ -76,6 +76,7 @@ export default function RootLayout({
                   <ActiveLink href="/structured_output">
                     🧱 Structured Output
                   </ActiveLink>
+                  <ActiveLink href="/study_buddy">🤓 Study Buddy</ActiveLink>
                   <ActiveLink href="/agents">🦜 Agents</ActiveLink>
                   <ActiveLink href="/retrieval">🐶 Retrieval</ActiveLink>
                   <ActiveLink href="/retrieval_agents">
