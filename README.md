@@ -1,6 +1,6 @@
 # Study Buddy AI Agent
 
-A Study Buddy AI Agent based on the [LangChain Next.js Tutorial]([https://github.com/langchain-ai/langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template)).
+A Study Buddy AI Agent based on the [LangChain Next.js Tutorial](https://github.com/langchain-ai/langchain-nextjs-template).
 
 ### The Study Buddy is able to:
 
